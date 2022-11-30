@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Roboto&display=swap');
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(100%);
+		opacity:0;
+    }
+	50%{
+		opacity:0.5;
+	}
+    100% {
+        transform: translateX(0);
+		opacity:1;
+    }
+}
+
+.logotyp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-bottom:5%;
+}
+.lista {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin:100;
+	color:white;
+	padding:2%;
+	border-radius:20px;
+	transition-duration: 0.6s;
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+.lista:hover{
+transform: scale(1.05);
+}
+
+td {
+	padding: 5px;
+}
+
+
+body{
+	font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	background-color: black;
+	text-align: center;
+	margin:0;
+}
+.serduszko{
+	margin-top: 5px;
+}
+
+.text{
+	font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	text-align:center;
+	color:white;
+
+	
+}
+.mapka{
+	width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #777;
+	display:block;
+	border-radius:22px;
+	border: solid white 5px;
+}
+.guzik {
+	display: inline-block;
+	margin-bottom:120px;
+	margin-top:30px;
+	text-decoration:none;
+	width: 150px;
+	padding:10px;
+	border-radius:90px;
+	transition-duration: 0.6s;
+	color:white;
+}
+.glufka{
+	border-radius:5px;
+}
+footer{
+	background-color = red;
+
+
+}
+.1{
+	height: 30px;
+     width: 10%;
+     float: left;
+}
+.2{
+	width: 80%;
+	display: block;
+	float: right;
+}
